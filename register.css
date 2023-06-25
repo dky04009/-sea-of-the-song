@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}		
+html,body {
+    height: 100%;
+}		
+html{
+	font-size: 18px;
+}		
+ul {
+    list-style: none;
+}		
+header{
+    width: 100%;
+	overflow: hidden;
+	background: url(image/banner.png) no-repeat center center/cover;
+   	padding-bottom:.5em;
+	text-align: center;
+}
+header h2{
+	margin-top: 19rem;
+	text-shadow:  3px 0px 4px #419eff;
+	color:#fff;
+	font:5rem 华光行草_CNKI;
+}
+header p4{
+    margin:1rem 0;
+    font:1rem HGB8_CNKI;
+	color: white;
+	text-shadow:1px 1px #0b558c;
+}
+section{
+	background-color: #c7e7ff;
+	text-align: center;
+}
+section div.nav{
+	float: left;
+	width:100%;
+	background: #26edff;
+	text-align: center;
+}
+section div.nav ul{
+	display: inline-block;
+}
+section div.nav ul li{
+	float: left;
+	margin: 0 4rem;
+}
+section div.nav ul li a{
+	display: block;
+	line-height:.7rem;
+	padding:.7rem; 
+	text-decoration: none;
+	color: white;
+	font:1.3em 华文中宋;
+}
+section div.nav ul li a:hover{
+	display: block;
+	line-height: .7rem;
+	padding:.7rem; 
+	text-decoration: none;
+	color:#26edff;
+	font:1.3rem 华文中宋;
+	background: white;
+}
+section h3{
+	display: inline-block;
+	padding-bottom: 1.5rem;
+	line-height: 2rem;
+	font:1.5rem 华光中长宋_CNKI;
+	text-shadow: 2px 2px 6px #fff;
+	padding: 1.5rem 0 1rem 0;
+}
+section .joinus{
+	text-align: center;
+	font-family: 华文宋体;
+    height: 15rem;
+	line-height: 2.2rem;
+}
+section .joinus form{
+	background-color: rgba(255,255,255,.30);
+	border: 2px solid #19f7ff;
+	border-radius: 15px;
+	border-shadow:1px 1px 1px #fff;
+	margin: 0 18rem;
+}

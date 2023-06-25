@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}		
+html,body {
+    height: 100%;
+}		
+html{
+	font-size: 18px;
+}		
+ul {
+    list-style: none;
+}		
+header{
+    width: 100%;
+   	background: url(image/banner.png) no-repeat center center/cover;
+	overflow: hidden;
+   	padding-bottom:.5em;
+	text-align: center;
+}		
+header h2{
+	margin-top: 19rem;
+	text-shadow:  3px 0px 4px #419eff;
+	color:#fff;
+	font:5rem 华光行草_CNKI;
+}
+header p4{
+    margin:1rem 0;
+    font:1rem HGB8_CNKI;
+	color: white;
+	text-shadow:1px 1px #0b558c;
+}
+header>div .enter{
+    width: 100%;
+    text-align: center;
+    margin-top: .8rem;
+}
+header>div .enter i{
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background: #19f7ff;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 1.5rem;
+}
+header>div .enter i:hover{
+    color: #15b3b8;
+    font-size: 1.6rem;
+}
+header>div .enter i::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background: radial-gradient(#19f7ff 20%,transparent);
+    border-radius: 1.5rem;
+    animation: run 1.5s linear infinite;
+}
+@keyframes run{
+    0%{
+        transform: scale(1)
+    }
+    100%{
+        transform: scale(1.8);
+    }
+}
+section{
+	background-color: #c7e7ff;
+}
+section div.nav{
+	width:100%;
+	background: rgba(38, 237, 255, 0.47);
+	text-align: center;
+}
+section div.nav ul{
+	display: inline-block;
+}
+section div.nav ul li{
+	float: left;
+	margin: 0 4rem;
+}
+section div.nav ul li a{
+	display: block;
+	line-height:.7rem;
+	padding:.7rem; 
+	text-decoration: none;
+	color: white;
+	font:1.3em 华文中宋;
+}
+section div.nav ul li a:hover{
+	display: block;
+	line-height: .7rem;
+	padding:.7rem; 
+	text-decoration: none;
+	color:#26edff;
+	font:1.3rem 华文中宋;
+	background: white;
+}
+.juqing{
+	width:85%;
+	height: 250px;
+	margin-top: 60px;
+	margin-left: 100px;
+}
+.juqing p{
+	text-align: justify;
+	text-justify: inter-ideograph;
+	text-indent: 2em;
+	border: 1px solid #ad9be0;
+	border-radius: 1.5rem;
+	background-color: rgba(229, 207, 248, 0.21);
+	margin:0 8rem;
+	padding: 1rem;
+	line-height: 1.5rem;
+	font-family: 华文宋体;
+}
+h4 {
+	text-align:center;
+	padding-bottom: 1.5rem;
+	line-height: 2rem;
+	font: 1.7rem 华光中长宋_CNKI;
+	text-shadow: 2px 2px 6px #fff;
+}
+.yugao{
+	float: left;
+	margin-left: 190px;
+	height: 330px;
+}
+.jiacu{
+	color: #0052cd;
+	font-weight: bold;
+	font-family: 华文细黑;
+}
+.xinxi {
+	float: left;
+	text-indent: 2em;
+	padding: 2.5rem 0;
+	margin-left: 30px;
+	line-height: 1.5rem;
+	font-family: 华文宋体;
+	font-size: 17px;
+	height: 330px;
+	width: 550px;
+	text-align: justify;
+}
+h5{
+	text-align: center;
+	padding-bottom: 1.5rem;
+	line-height: 2rem;
+	font:1.7rem 华光中长宋_CNKI;
+	text-shadow: 2px 2px 6px #fff;
+}
+.yanyuan{
+	height: 1700px;
+	margin-top: 20px;
+	padding:1.6rem;
+}
+img{
+	float:left;
+	margin-left:400px;
+	width: 190px;
+}
+p1 {
+	float: left;
+	text-indent: 2em;
+	padding: 2.5rem 0;
+	margin-left: 32px;
+	line-height: 1.5rem;
+	font-family: 华文宋体;
+	font-size: 17px;
+	height: 200px;
+	width: 530px;
+	text-align: justify;
+
+
+}
+footer{
+	background-color:#c7e7ff;
+	text-align: center;
+}
+.end{
+	text-align: center;
+	font:1rem/4rem 楷体;
+	color:#fff;
+}
+.huojiang{
+	margin-top:40px;
+	margin-bottom: 30px;
+}
+.mailTable{
+	width: 800px;
+	border-top: 1px solid #d6c9fc;
+	border-left: 1px solid #d6c9fc;
+	margin-left: 500px ;
+}
+.mailTable tr td{
+	width: 150px;
+	height: 35px;
+	padding: 0 10px;
+	border-bottom: 1px solid #d6c9fc;
+	border-right: 1px solid #d6c9fc;
+
+}
+.mailTable tr td.column {
+	background-color: rgba(225, 209, 255, 0.58);
+	color: #393C3E;
+	width: 30%;
+}
+h6{
+	margin-top: 30px;
+	margin-left: 250px;
+	padding: 1.5rem;
+	font-family: 华文细黑;
+	font-size: 27px;
+
+}
+.bolckTitle {
+	border-left: 7px solid #d6c9fc;
+}
+.xiongmei{
+	width: 1000px;
+	height: 1900px;
+	margin-left: 10px;
+}
+.changjing{
+	width: 1000px;
+	height: 1550px;
+	margin-left: 10px;
+	margin-top: 40px;
+}
+.jietu{
+	width:672px;
+	height: 357px;
+	padding:10px 0 10px 0;
+}
+.maoxian{
+	width: 1000px;
+	height: 2300px;
+	margin-left: 10px;
+	margin-top: 40px;
+}
+.jieju{
+	width: 1000px;
+	height: 3500px;
+	margin-left: 10px;
+	margin-top: 40px;
+}
